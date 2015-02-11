@@ -27,9 +27,3 @@ Transformations performed to get from raw data to tidy data:
 * Pivoted the single data set to put 79 columns as rows (to make it more readable). This step produced a nice narrow data set (4 columns: subject,activity,measure name, measure value)
 * Aggregated the above data set by first 3 columns (subject,activity,measure name), and calculated mean for measure value.
 
-If you wish to run it yourself:
-* Unpack contents of https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to a folder one above script run_analysis.R
-* Running it requires packages dplyr and tidyr - make sure you have them installed
-* set working directory where script run_analysis.R is
-* run script run_analysis.R. it takes a few min, most time is used to read data
-* resulting tidy data set is created in file tidyDS_task5.txt
