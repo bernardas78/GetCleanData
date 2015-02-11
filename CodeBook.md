@@ -5,15 +5,14 @@ This code book describes the variables, the data, and any transformations or wor
 The raw data consists of the following:
 * Train and test data stored in separate directories /Train and /Test. Train contains ~7000 measurements and test contains ~3000
 * Each (train and test) data consists of:
-** Subjects of the measurements (who) in files [Train|Test]/subject_[train|test].txt. A vector of int, a numeric value 1:30 for each measurement
-** Activity indexes of the measurements (what kind of activity was performed) in files [Train|Test]/Y_[train|test].txt. A vector of int, a numeric value 1:6 for each measurement
-** Measurements in files [Train|Test]/X_[train|test].txt. It's a matrix of 561 columns (measures) where one row is one measurement of each measure. Values are normalized to range -1..1
-========
-** Files in directories [Train|Test]/Inertial Signals contain raw signal data. I did not use it for this assignment as per explanation https://class.coursera.org/getdata-011/forum/thread?thread_id=69
+* Subjects of the measurements (who) in files [Train|Test]/subject_[train|test].txt. A vector of int, a numeric value 1:30 for each measurement
+* Activity indexes of the measurements (what kind of activity was performed) in files [Train|Test]/Y_[train|test].txt. A vector of int, a numeric value 1:6 for each measurement
+* Measurements in files [Train|Test]/X_[train|test].txt. It's a matrix of 561 columns (measures) where one row is one measurement of each measure. Values are normalized to range -1..1
+* Files in directories [Train|Test]/Inertial Signals contain raw signal data. I did not use it for this assignment as per explanation https://class.coursera.org/getdata-011/forum/thread?thread_id=69
 
 Variables of raw data:
-** Activity labels in file activity_labels.txt. This is a mapping between activity index in [Train|Test]/Y_[train|test].txt and a readable activity name
-** Measure labels in file features.txt. This is a column headers vector for files [Train|Test]/X_[train|test].txt
+* Activity labels in file activity_labels.txt. This is a mapping between activity index in [Train|Test]/Y_[train|test].txt and a readable activity name
+* Measure labels in file features.txt. This is a column headers vector for files [Train|Test]/X_[train|test].txt
 
 Tidy data set consists of the following columns:
 *subject - this a subject who measurement was performed on. Values 1:30
