@@ -18,7 +18,7 @@ Tidy data set consists of the following columns:
 * subject - this a subject who measurement was performed on. Values 1:30
 * act_label - a readable activity name, character values one of 6 activities
 * var_name - a measure name (character value), a choice from file features.txt that contains "mean" or "std"
-* mean(var_value) - average of all measurements per subject per activity for a given measure
+* mean(var_value) - average of all measurements per subject per activity for a given measure. numeric normalized to range -1..1
 
 Transformations performed to get from raw data to tidy data:
 * Train and test data was merged to a 3 data sets: subject, activity, measurements
