@@ -9,7 +9,7 @@ The contents of the reposirory consists of:
 * This readme.md file
 
 If you wish to run it yourself:
-* Unpack contents of https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the working folder
+* Put file https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the working folder (do not unzip)
 * Running it requires packages dplyr and tidyr - make sure you have them installed. You can install by running install.packages("dplyr"), install.packages("tidyr")
 * run script run_analysis.R. it takes a few min, most time is used to read data
 * resulting tidy data set is created in file working directory, file tidyDS_task5.txt
